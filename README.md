@@ -28,7 +28,7 @@ python setup.py
 ## Usage
 
 ```python
-from oxford import oxfordpy
+from oxfordpy import oxfordpy
 
 dictionary = oxfordpy.Oxford()
 
