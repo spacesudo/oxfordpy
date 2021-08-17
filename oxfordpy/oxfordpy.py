@@ -24,11 +24,10 @@ class Oxford:
     """
 
 
-    def __init__(self,app_id =  "13d4476c",app_key = "ff112670b8c68901ac869b43fd37cce3", timeout = (2,5)):
+    def __init__(self,app_id, app_key):
         self.app_id = app_id
         self.app_key = app_key
         self.url =  "https://od-api.oxforddictionaries.com/api/v2/"
-        self.timeout = timeout
 
 
     def entries(self,word,language="en-gb"):
